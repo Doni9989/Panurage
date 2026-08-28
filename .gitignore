@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs & env
+*.log
+.env
+.env.*
+
+# Dependencies (if later added)
+node_modules/
+package-lock.json
+
+# Build / temp
+dist/
+build/
+.tmp/
+*.tmp
+
+# Private / product files — NEVER commit source code products
+/sc/
+/source/
+/ptht/
+*.zip
+*.rar
+*.7z
+pack.bin
+assets/pack.*
+
+# Local server
+.firebase/
+.netlify/

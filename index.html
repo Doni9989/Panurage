@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PANURGE STORE — PTHT & Modul Premium</title>
+  <meta name="description" content="PANURGE STORE menyediakan source code GTPS profesional. Tersedia PTHT Biasa, PTHT Super Fast, Copy World, Put Platform, Clear Island + Water, serta layanan custom. Transaksi aman, pengiriman cepat, dan dukungan penuh melalui Discord." />
+  <meta name="theme-color" content="#ece4d0" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0d0b08" media="(prefers-color-scheme: dark)" />
+  <meta property="og:title" content="PANURGE STORE — PTHT & Modul Premium" />
+  <meta property="og:description" content="PANURGE STORE menyediakan source code GTPS profesional. Tersedia PTHT Biasa, PTHT Super Fast, Copy World, Put Platform, Clear Island + Water, serta layanan custom. Transaksi aman, pengiriman cepat, dan dukungan penuh melalui Discord." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="PANURGE STORE" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PANURGE STORE — PTHT & Modul Premium" />
+  <meta name="twitter:description" content="PANURGE STORE menyediakan source code GTPS profesional. Tersedia PTHT Biasa, PTHT Super Fast, Copy World, Put Platform, Clear Island + Water, serta layanan custom. Transaksi aman, pengiriman cepat, dan dukungan penuh melalui Discord." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    try {
+      if (localStorage.getItem("panurge-motion") === "off") document.documentElement.dataset.motion = "off";
+      var t = localStorage.getItem("panurge-theme");
+      if (t === "dark" || t === "light") document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <style>
+    :root { color-scheme: light dark; }
+    html[data-theme="light"] { color-scheme: light; }
+    html[data-theme="dark"] { color-scheme: dark; }
+    html { background: #ece4d0; }
+    @media (prefers-color-scheme: dark) {
+      html:not([data-theme="light"]) { background: #0d0b08; }
+    }
+    html[data-theme="dark"] { background: #0d0b08; }
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scan" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#katalog">Langsung ke katalog</a>
+
+  <nav class="nav" role="navigation" aria-label="Utama">
+    <div class="wrap nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <rect x="2" y="2" width="28" height="28" rx="6" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M10 12h12M10 16h8M10 20h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo-text">PANURGE STORE</span>
+      </a>
+      <div class="nav-links">
+        <a href="#katalog">Katalog</a>
+        <a href="#kenapa">Keunggulan</a>
+        <a href="#cara">Cara Beli</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="nav-accent">Discord</a>
+      </div>
+      <div class="nav-controls" aria-label="Kontrol tampilan">
+        <button type="button" class="ctrl" data-motion-toggle aria-pressed="true" title="Matikan atau nyalakan animasi">
+          Motion <span data-motion-state>on</span>
+        </button>
+        <button type="button" class="ctrl" data-theme-toggle aria-pressed="false" title="Ganti mode terang atau gelap">
+          Air <span data-theme-state>off</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="hero-eyebrow">PANURGE STORE · PTHT &amp; MODUL PREMIUM · TRANSAKSI VIA DISCORD</p>
+      <div class="hero-mark" data-mark>
+        <span class="hero-big">PANURGE</span>
+        <span class="hero-big">STORE</span>
+      </div>
+      <p class="hero-sub">
+        SOURCE CODE GTPS — PTHT DAN MODUL PREMIUM.<br />
+        TRANSAKSI AMAN MELALUI DISCORD.
+      </p>
+      <p class="hero-note">Stabil · Optimal · Siap produksi</p>
+      <div class="hero-actions">
+        <a href="#katalog" class="btn-outline">LIHAT KATALOG →</a>
+        <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="btn-solid">HUBUNGI DISCORD</a>
+      </div>
+      <div class="hero-status">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>Sekarang menerima pesanan</span>
+      </div>
+      <div class="hero-stats" aria-label="Ringkasan penawaran">
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Versi PTHT</span></div>
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label">Modul siap pakai</span></div>
+        <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Via Discord</span></div>
+      </div>
+      
+      <div class="hero-art reveal" aria-hidden="true">
+        <svg class="hero-svg" viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" role="img">
+          <defs>
+            <pattern id="dotgrid" width="12" height="12" patternUnits="userSpaceOnUse">
+              <circle cx="1" cy="1" r="0.8" fill="currentColor" opacity="0.2"/>
+            </pattern>
+            <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="currentColor" stop-opacity="0"/>
+              <stop offset="40%" stop-color="currentColor" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="currentColor" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <rect width="640" height="200" fill="url(#dotgrid)"/>
+          <rect x="40" y="30" width="560" height="140" rx="8" fill="none" stroke="currentColor" stroke-opacity="0.15" stroke-width="1"/>
+          <rect x="60" y="50" width="200" height="100" rx="4" fill="none" stroke="currentColor" stroke-opacity="0.25" stroke-width="1.2"/>
+          <rect x="80" y="70" width="160" height="12" rx="2" fill="currentColor" opacity="0.2"/>
+          <rect x="80" y="92" width="120" height="8" rx="2" fill="currentColor" opacity="0.12"/>
+          <rect x="80" y="110" width="140" height="8" rx="2" fill="currentColor" opacity="0.12"/>
+          <rect x="80" y="128" width="90" height="8" rx="2" fill="currentColor" opacity="0.12"/>
+          <g opacity="0.35">
+            <circle cx="360" cy="100" r="48" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="360" cy="100" r="32" fill="none" stroke="currentColor" stroke-width="1"/>
+            <circle cx="360" cy="100" r="16" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line x1="360" y1="52" x2="360" y2="148" stroke="currentColor" stroke-width="0.8"/>
+            <line x1="312" y1="100" x2="408" y2="100" stroke="currentColor" stroke-width="0.8"/>
+          </g>
+          <g opacity="0.3">
+            <rect x="440" y="55" width="120" height="90" rx="4" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <path d="M460 80h80M460 100h60M460 120h70" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </g>
+          <rect x="0" y="96" width="640" height="2" fill="url(#fade)"/>
+        </svg>
+      </div>
+
+      <hr class="rule" />
+    </div>
+  </header>
+
+  <section class="intro" aria-labelledby="intro-title">
+    <div class="wrap intro-grid">
+      <h2 id="intro-title" class="intro-title reveal">SOURCE YANG<br />SIAP DIGUNAKAN.</h2>
+      <div class="intro-body reveal">
+        <p>
+          PTHT Biasa dan PTHT Super Fast disusun agar langsung dapat dijalankan — dokumentasi setup jelas, performa terjaga, serta dukungan penuh melalui Discord.
+        </p>
+        <p>
+          Tersedia pula modul pendukung: Copy World, Put Platform, Clear Island + Water, serta pengembangan custom sesuai kebutuhan proyek Anda.
+        </p>
+        <p class="intro-meta">
+          Setiap pembelian diproses secara personal. Tidak ada antrean bot — Anda berbicara langsung dengan penyedia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="katalog" class="section" aria-labelledby="katalog-title">
+    <div class="wrap">
+      <div class="ch reveal">
+        <span class="ch-num">CH 01</span>
+        <span class="ch-line" aria-hidden="true"></span>
+        <span class="ch-name">Katalog</span>
+      </div>
+      <h2 id="katalog-title" class="sec-title reveal">Pilih paket yang sesuai.</h2>
+      <p class="sec-lead reveal">Harga dalam ribuan Rupiah. Pengiriman dilakukan setelah konfirmasi pembayaran di Discord.</p>
+
+      <div class="list" role="list">
+        <article class="row tilt reveal" data-tilt role="listitem">
+          <div class="row-left">
+            <span class="row-tag">STANDAR</span>
+            <h3>PTHT Biasa</h3>
+            <p>Source code GTPS standar. Stabil, mudah dikonfigurasi, cocok untuk pemula maupun server pribadi yang membutuhkan fondasi yang andal.</p>
+            <ul class="row-features">
+              <li>Full source code</li>
+              <li>Panduan setup</li>
+              <li>Dukungan dasar</li>
+            </ul>
+          </div>
+          <div class="row-right">
+            <span class="row-price">10K</span>
+            <span class="row-unit">IDR</span>
+            <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="row-link">Beli via Discord →</a>
+          </div>
+        </article>
+
+        <article class="row tilt featured reveal" data-tilt role="listitem">
+          <div class="row-left">
+            <span class="row-tag accent">REKOMENDASI</span>
+            <h3>PTHT Super Fast</h3>
+            <p>Versi teroptimasi. Waktu muat world lebih cepat, penggunaan resource lebih efisien, performa lebih tinggi untuk server dengan beban aktif.</p>
+            <ul class="row-features">
+              <li>Optimasi performa</li>
+              <li>World load lebih cepat</li>
+              <li>Prioritas dukungan</li>
+            </ul>
+          </div>
+          <div class="row-right">
+            <span class="row-price">25K</span>
+            <span class="row-unit">IDR</span>
+            <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="row-link">Beli via Discord →</a>
+          </div>
+        </article>
+
+        <article class="row tilt reveal" data-tilt role="listitem">
+          <div class="row-left">
+            <span class="row-tag">MODUL</span>
+            <h3>Copy World</h3>
+            <p>Salin struktur, item, dan layout world secara lengkap dengan hasil yang rapi dan akurat — siap diintegrasikan ke alur kerja server Anda.</p>
+            <ul class="row-features">
+              <li>Salin world penuh</li>
+              <li>Pertahankan layout</li>
+              <li>Integrasi mudah</li>
+            </ul>
+          </div>
+          <div class="row-right">
+            <span class="row-price">30K</span>
+            <span class="row-unit">IDR</span>
+            <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="row-link">Beli via Discord →</a>
+          </div>
+        </article>
+
+        <article class="row tilt reveal" data-tilt role="listitem">
+          <div class="row-left">
+            <span class="row-tag">MODUL</span>
+            <h3>Put Platform</h3>
+            <p>Modul penempatan platform yang cepat dan ringan, dirancang agar mudah dipasang tanpa membebani performa server.</p>
+            <ul class="row-features">
+              <li>Penempatan cepat</li>
+              <li>Ringan</li>
+              <li>Plug &amp; play</li>
+            </ul>
+          </div>
+          <div class="row-right">
+            <span class="row-price">10K</span>
+            <span class="row-unit">IDR</span>
+            <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="row-link">Beli via Discord →</a>
+          </div>
+        </article>
+
+        <article class="row tilt reveal" data-tilt role="listitem">
+          <div class="row-left">
+            <span class="row-tag">MODUL</span>
+            <h3>Clear Island + Water</h3>
+            <p>Bersihkan area island beserta water secara efisien, tanpa menyisakan sisa yang mengganggu atau membebani world.</p>
+            <ul class="row-features">
+              <li>Clear island</li>
+              <li>Hapus water</li>
+              <li>Proses optimal</li>
+            </ul>
+          </div>
+          <div class="row-right">
+            <span class="row-price">15K</span>
+            <span class="row-unit">IDR</span>
+            <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="row-link">Beli via Discord →</a>
+          </div>
+        </article>
+
+        <article class="row tilt reveal" data-tilt role="listitem">
+          <div class="row-left">
+            <span class="row-tag custom">CUSTOM</span>
+            <h3>Custom Request</h3>
+            <p>Butuh fitur khusus? Diskusikan kebutuhan Anda. Harga menyesuaikan tingkat kompleksitas, mulai 10K hingga 50K, dengan ruang diskusi sebelum kesepakatan.</p>
+            <ul class="row-features">
+              <li>Sesuai permintaan</li>
+              <li>Diskusi di Discord</li>
+              <li>Harga fleksibel</li>
+            </ul>
+          </div>
+          <div class="row-right">
+            <span class="row-price">10–50K</span>
+            <span class="row-unit">IDR</span>
+            <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="row-link">Diskusi via Discord →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="kenapa" class="section band" aria-labelledby="kenapa-title">
+    <div class="wrap">
+      <div class="ch reveal">
+        <span class="ch-num">CH 02</span>
+        <span class="ch-line" aria-hidden="true"></span>
+        <span class="ch-name">Keunggulan</span>
+      </div>
+      <h2 id="kenapa-title" class="sec-title reveal">Fokus pada kualitas<br />yang dapat diandalkan.</h2>
+      <p class="sec-lead reveal">Bukan sekadar file yang dikirim — setiap paket disusun agar dapat dipakai dan didukung dengan jelas.</p>
+
+      <div class="grid-4">
+        <div class="card tilt reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="6" stroke="currentColor" stroke-width="1.5"/><path d="M16 18h16M16 24h12M16 30h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <span class="num">01</span>
+          <h3>Siap digunakan</h3>
+          <p>Langsung dapat dijalankan. Dilengkapi panduan setup agar proses instalasi berjalan lancar dari awal.</p>
+        </div>
+        <div class="card tilt reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M26 8L14 26h10l-2 14 14-20H26V8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <span class="num">02</span>
+          <h3>Performa optimal</h3>
+          <p>PTHT Super Fast dioptimasi agar server lebih ringan dan pemuatan world lebih cepat di bawah beban nyata.</p>
+        </div>
+        <div class="card tilt reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M14 18c0-5.5 4.5-10 10-10s10 4.5 10 10c0 4-2.5 7.5-6 9v3h-8v-3c-3.5-1.5-6-5-6-9z" stroke="currentColor" stroke-width="1.5"/><path d="M20 34h8M22 38h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <span class="num">03</span>
+          <h3>Dukungan Discord</h3>
+          <p>Bantuan teknis langsung. Konsultasi setup, kendala, maupun permintaan custom ditangani secara personal.</p>
+        </div>
+        <div class="card tilt reveal" data-tilt>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="1.5"/><path d="M24 16v8l5 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <span class="num">04</span>
+          <h3>Perawatan berkelanjutan</h3>
+          <p>Kualitas source dijaga. Pembeli memperoleh akses perbaikan terkait produk yang telah dibeli.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section band" aria-labelledby="jaminan-title">
+    <div class="wrap intro-grid">
+      <div class="reveal">
+        <div class="ch">
+          <span class="ch-num">CH 02B</span>
+          <span class="ch-line" aria-hidden="true"></span>
+          <span class="ch-name">Jaminan</span>
+        </div>
+        <h2 id="jaminan-title" class="sec-title">Yang Anda terima<br />setelah pembayaran.</h2>
+      </div>
+      <div class="reveal">
+        <div class="stack-md prose-muted">
+          <p>Setelah pembayaran dikonfirmasi di Discord, source code dikirim sesuai paket yang dipilih. Untuk PTHT Biasa dan PTHT Super Fast, disertakan panduan setup dasar agar instalasi dapat dilakukan dengan jelas.</p>
+          <p>Modul seperti Copy World, Put Platform, dan Clear Island + Water dikirim siap diintegrasikan. Custom request dijadwalkan setelah ruang lingkup disepakati bersama.</p>
+          <div class="callout">
+            <strong>Catatan penting:</strong> Produk digital bersifat final setelah pengiriman. Pastikan pilihan paket sudah sesuai sebelum menyelesaikan pembayaran.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cara" class="section" aria-labelledby="cara-title">
+    <div class="wrap">
+      <div class="ch reveal">
+        <span class="ch-num">CH 03</span>
+        <span class="ch-line" aria-hidden="true"></span>
+        <span class="ch-name">Cara beli</span>
+      </div>
+      <h2 id="cara-title" class="sec-title reveal">Tiga langkah sederhana.</h2>
+      <p class="sec-lead reveal">Tidak ada formulir panjang. Semua proses berjalan di Discord, dari tanya jawab hingga pengiriman.</p>
+
+      <div class="grid-3">
+        <div class="card tilt reveal" data-tilt>
+          <span class="num">01</span>
+          <h3>Hubungi di Discord</h3>
+          <p>Klik tautan Discord di website ini untuk membuka chat langsung. Sebutkan produk yang ingin dibeli.</p>
+        </div>
+        <div class="card tilt reveal" data-tilt>
+          <span class="num">02</span>
+          <h3>Sebutkan produk</h3>
+          <p>Informasikan paket yang diinginkan — PTHT Biasa, PTHT Super Fast, Copy World, atau modul lainnya.</p>
+        </div>
+        <div class="card tilt reveal" data-tilt>
+          <span class="num">03</span>
+          <h3>Bayar &amp; terima</h3>
+          <p>Selesaikan pembayaran sesuai instruksi. Source code dikirim langsung melalui Discord setelah konfirmasi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="banding" class="section" aria-labelledby="banding-title">
+    <div class="wrap">
+      <div class="ch reveal">
+        <span class="ch-num">CH 03B</span>
+        <span class="ch-line" aria-hidden="true"></span>
+        <span class="ch-name">Perbandingan</span>
+      </div>
+      <h2 id="banding-title" class="sec-title reveal">PTHT Biasa vs Super Fast.</h2>
+      <p class="sec-lead reveal">Ringkasan perbedaan agar Anda dapat memilih paket yang tepat sebelum menghubungi kami di Discord.</p>
+
+      <div class="compare reveal">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th scope="col">Aspek</th>
+              <th scope="col">PTHT Biasa</th>
+              <th scope="col">PTHT Super Fast</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Harga</th>
+              <td>10K IDR</td>
+              <td>25K IDR</td>
+            </tr>
+            <tr>
+              <th scope="row">Fokus</th>
+              <td>Stabilitas &amp; kemudahan setup</td>
+              <td>Performa &amp; efisiensi resource</td>
+            </tr>
+            <tr>
+              <th scope="row">World load</th>
+              <td>Standar</td>
+              <td>Dipercepat</td>
+            </tr>
+            <tr>
+              <th scope="row">Cocok untuk</th>
+              <td>Pemula, server pribadi</td>
+              <td>Server aktif, beban lebih tinggi</td>
+            </tr>
+            <tr>
+              <th scope="row">Dukungan</th>
+              <td>Dasar via Discord</td>
+              <td>Prioritas via Discord</td>
+            </tr>
+            <tr>
+              <th scope="row">Panduan setup</th>
+              <td>Termasuk</td>
+              <td>Termasuk</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section band" aria-labelledby="faq-title">
+    <div class="wrap narrow">
+      <div class="ch reveal">
+        <span class="ch-num">CH 04</span>
+        <span class="ch-line" aria-hidden="true"></span>
+        <span class="ch-name">FAQ</span>
+      </div>
+      <h2 id="faq-title" class="sec-title reveal">Pertanyaan yang sering diajukan.</h2>
+
+      <div class="faq">
+        <details class="reveal">
+          <summary>Apakah sudah termasuk panduan setup?</summary>
+          <p>Ya. PTHT Biasa dan PTHT Super Fast dilengkapi panduan setup dasar untuk memudahkan instalasi di lingkungan Anda.</p>
+        </details>
+        <details class="reveal">
+          <summary>Bagaimana proses pembayaran?</summary>
+          <p>Seluruh transaksi dilakukan melalui Discord. Admin akan menyampaikan metode pembayaran yang tersedia setelah Anda menyebutkan produk yang diinginkan.</p>
+        </details>
+        <details class="reveal">
+          <summary>Apakah dapat mengajukan custom request?</summary>
+          <p>Dapat. Harga custom berkisar 10K–50K tergantung tingkat kesulitan. Silakan diskusikan kebutuhan Anda terlebih dahulu di Discord sebelum kesepakatan.</p>
+        </details>
+        <details class="reveal">
+          <summary>Apakah tersedia pengembalian dana?</summary>
+          <p>Karena bersifat produk digital, pengembalian dana tidak tersedia setelah source code dikirim. Pastikan keputusan sudah final sebelum melakukan pembelian.</p>
+        </details>
+        <details class="reveal">
+          <summary>Bagaimana dengan dukungan setelah pembelian?</summary>
+          <p>Pembeli memperoleh dukungan melalui Discord untuk bantuan setup dan pertanyaan terkait produk yang dibeli, dalam lingkup yang wajar.</p>
+        </details>
+        <details class="reveal">
+          <summary>Berapa lama pengiriman setelah bayar?</summary>
+          <p>Umumnya segera setelah pembayaran dikonfirmasi. Untuk custom request, waktu pengerjaan akan dikomunikasikan terlebih dahulu.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="ch reveal">
+        <span class="ch-num">CH 05</span>
+        <span class="ch-line" aria-hidden="true"></span>
+        <span class="ch-name">Kontak</span>
+      </div>
+      <h2 id="contact-title" class="sec-title reveal">Siap memesan?<br />Hubungi kami di Discord.</h2>
+      <p class="sec-lead center reveal">Proses cepat dan transparan. Source code dikirim setelah pembayaran dikonfirmasi. Tidak ada formulir — langsung percakapan.</p>
+      <a href="https://discord.com/users/1072117095443202069" target="_blank" rel="noopener noreferrer" class="btn-solid reveal">HUBUNGI DISCORD</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo">
+            <span class="logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="22" height="22" fill="none">
+                <rect x="2" y="2" width="28" height="28" rx="6" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M10 12h12M10 16h8M10 20h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="logo-text">PANURGE STORE</span>
+          </span>
+          <p class="footer-tag">PANURGE STORE · Source code GTPS · PTHT &amp; modul · Transaksi via Discord</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#katalog">Katalog</a>
+          <a href="#kenapa">Keunggulan</a>
+          <a href="#cara">Cara Beli</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Discord</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PANURGE STORE. Bukan afiliasi resmi Growtopia / Ubisoft.</p>
+        <div class="footer-controls" aria-label="Kontrol tampilan">
+          <button type="button" class="ctrl" data-motion-toggle aria-pressed="true">Motion <span data-motion-state>on</span></button>
+          <button type="button" class="ctrl" data-theme-toggle aria-pressed="false">Air <span data-theme-state>off</span></button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
